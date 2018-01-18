@@ -11,7 +11,7 @@ R. Flamary, "[Astronomical image reconstruction with convolutional neural networ
 
 The code is under MIT Licence but please refer to and cite the above paper if you use it for academic purposes.
 
-Note that the code is not yet available due to necessary cleanup but feel free to send me an email if you cannot wait for the GitHub version.
+<Note that the code is not yet available due to necessary cleanup but feel free to send me an email if you cannot wait for the GitHub version.>
 
 ##  Dependencies
 

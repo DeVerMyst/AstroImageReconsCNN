@@ -31,8 +31,6 @@ if len(sys.argv)>1:
 else:
     method='none'
 
-
-
 #%% PSF
 sigma=0.01
 npsf=64
@@ -154,7 +152,7 @@ for itest in range(nb_img):
         
         fname=get_fname2(modelname,npsf,sigma,lst_img[itest])
         model=dsutils.load_model('models/'+fname)
-        Irec=dsutils.apply_model(I,model,szi,szo)
+#        Irec=dsutils.apply_model(I,model,szi,szo)
         deconv.tic()
         Irec=dsutils.apply_model(I,model,szi,szo)
         t=deconv.toq()
@@ -179,7 +177,7 @@ for itest in range(nb_img):
         
         fname=get_fname2(modelname,npsf,sigma,lst_img[itest])
         model=dsutils.load_model('models/'+fname)
-        Irec=dsutils.apply_model(I,model,szi,szo)
+#        Irec=dsutils.apply_model(I,model,szi,szo)
         deconv.tic()
         Irec=dsutils.apply_model(I,model,szi,szo)
         t=deconv.toq()
